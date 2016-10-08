@@ -1,0 +1,1080 @@
+@font-face {
+    font-weight: 100;
+    font-style: normal;
+    font-family: "museo_sans";
+    src: url("fonts/museosans-100-webfont.eot"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-100-webfont.eot*/);
+    src: url("fonts/museosans-100-webfont.eot-#iefix"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-100-webfont.eot?#iefix*/) format("embedded-opentype"), url("fonts/museosans-100-webfont.woff2"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-100-webfont.woff2*/) format("woff2"), url("fonts/museosans-100-webfont.woff"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-100-webfont.woff*/) format("woff"), url("fonts/museosans-100-webfont.ttf"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-100-webfont.ttf*/) format("truetype"), url("fonts/museosans-100-webfont.svg#museo_sans100"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-100-webfont.svg#museo_sans100*/) format("svg");
+}
+
+@font-face {
+    font-weight: 300;
+    font-style: normal;
+    font-family: "museo_sans";
+    src: url("fonts/museosans-300-webfont.eot"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-300-webfont.eot*/);
+    src: url("fonts/museosans-300-webfont.eot-#iefix"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-300-webfont.eot?#iefix*/) format("embedded-opentype"), url("fonts/museosans-300-webfont.woff2"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-300-webfont.woff2*/) format("woff2"), url("fonts/museosans-300-webfont.woff"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-300-webfont.woff*/) format("woff"), url("fonts/museosans-300-webfont.ttf"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-300-webfont.ttf*/) format("truetype"), url("fonts/museosans-300-webfont.svg#museo_sans300"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans-300-webfont.svg#museo_sans300*/) format("svg");
+}
+
+@font-face {
+    font-weight: 500;
+    font-style: normal;
+    font-family: "museo_sans";
+    src: url("fonts/museosans_500-webfont.eot"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_500-webfont.eot*/);
+    src: url("fonts/museosans_500-webfont.eot-#iefix"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_500-webfont.eot?#iefix*/) format("embedded-opentype"), url("fonts/museosans_500-webfont.woff2"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_500-webfont.woff2*/) format("woff2"), url("fonts/museosans_500-webfont.woff"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_500-webfont.woff*/) format("woff"), url("fonts/museosans_500-webfont.ttf"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_500-webfont.ttf*/) format("truetype"), url("fonts/museosans_500-webfont.svg#museo_sans500"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_500-webfont.svg#museo_sans500*/) format("svg");
+}
+
+@font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family: "museo_sans";
+    src: url("fonts/museosans_700-webfont.eot"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_700-webfont.eot*/);
+    src: url("fonts/museosans_700-webfont.eot-#iefix"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_700-webfont.eot?#iefix*/) format("embedded-opentype"), url("fonts/museosans_700-webfont.woff2"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_700-webfont.woff2*/) format("woff2"), url("fonts/museosans_700-webfont.woff"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_700-webfont.woff*/) format("woff"), url("fonts/museosans_700-webfont.ttf"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_700-webfont.ttf*/) format("truetype"), url("fonts/museosans_700-webfont.svg#museo_sans700"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_700-webfont.svg#museo_sans700*/) format("svg");
+}
+
+@font-face {
+    font-weight: 900;
+    font-style: normal;
+    font-family: "museo_sans";
+    src: url("fonts/museosans_900-webfont.eot"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_900-webfont.eot*/);
+    src: url("fonts/museosans_900-webfont.eot-#iefix"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_900-webfont.eot?#iefix*/) format("embedded-opentype"), url("fonts/museosans_900-webfont.woff2"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_900-webfont.woff2*/) format("woff2"), url("fonts/museosans_900-webfont.woff"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_900-webfont.woff*/) format("woff"), url("fonts/museosans_900-webfont.ttf"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_900-webfont.ttf*/) format("truetype"), url("fonts/museosans_900-webfont.svg#museo_sans900"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/museosans_900-webfont.svg#museo_sans900*/) format("svg");
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: "bebas";
+    src: url("fonts/BebasNeue.otf"/*tpa=http://www.surfhousebarcelona.com/mobile/css/fonts/BebasNeue.otf*/);
+}
+
+@media screen and (orientation:landscape) {
+   body > * {
+       display: none !important;
+   }
+
+   body {
+        background: url("../img/landscape.jpg"/*tpa=http://www.surfhousebarcelona.com/mobile/img/landscape.jpg*/) center center/cover no-repeat !important;
+
+   }
+}
+
+body {
+background-color: #242424 !important;
+/*background: url('../img/bg-home.jpg') center center/cover no-repeat;*/
+font-family: "museo_sans", Helvetica, sans-serif;
+}
+
+.lang-switch {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    color: white;
+    font-size: 12px;
+    line-height: 24px;
+    opacity: 0;
+    transition: opacity .3s .5s ease-out, transform .3s .5s ease-out;
+}
+
+.lang-switch.menu-lang {
+    color: #522E92;
+}
+
+.lang-switch span {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    font-weight: 300;
+}
+
+.lang-switch a {
+    display: inline-block;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 14px;
+}
+
+.lang-switch a.selected {
+    border-bottom: 2px solid #68FB98;
+}
+
+body.loaded .lang-switch {
+    opacity: 1;
+}
+
+#page-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display:         flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: opacity .3s .6s linear;
+
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    justify-items: center;
+}
+
+body.loaded #page-loader {
+    opacity: 0;
+    -webkit-animation: move .6s .6s linear;
+            animation: move .6s .6s linear;
+
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from {
+        z-index: 10;
+    }
+    to {
+        z-index: 0;
+    }
+}
+
+@-webkit-keyframes move {
+    from {
+        z-index: 10;
+    }
+    to {
+        z-index: 0;
+    }
+}
+
+.loading-gif {
+    height: 150px;
+}
+
+.top-logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+    display: block;
+    width: 50px;
+}
+
+.top-logo img {
+    width: 100%;
+}
+
+.menu-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    display: block;
+    width: 28px;
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+}
+
+.menu-button img {
+    width: 100%;
+}
+
+/* Overlay style */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    display: -webkit-flex;
+    display:         flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+    position: absolute;
+    top: 19px;
+    right: 24px;
+    z-index: 999999;
+    overflow: hidden;
+    width: 22px;
+    height: 22px;
+    outline: none;
+    border: none;
+    background: url("../img/close@2x.png"/*tpa=http://www.surfhousebarcelona.com/mobile/img/close@2x.png*/) no-repeat center center;
+    background-size: cover;
+    color: transparent;
+    text-indent: 200%;
+}
+
+.overlay .overlay-close:hover {
+    opacity: .6;
+}
+/* Menu style */
+.overlay nav {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+}
+
+.overlay ul {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.overlay ul li {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.overlay nav ul li:last-child{
+    margin-top: 40px;
+}
+.overlay nav ul li:last-child a{
+    font-size:26px;
+}
+
+.overlay ul li a {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0px;
+    color: #441984;
+    text-transform: uppercase;
+    font-weight: 900;
+    -webkit-transition: color .2s;
+            transition: color .2s;
+}
+
+.overlay ul li .border {
+    width: 60px;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: -22px auto 0 auto;
+    height: 2px;
+    background-color: #68FB98;
+    transition: width .2s ease-out;
+}
+
+
+.overlay ul li a .border {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0px auto -4px auto;
+    width: 0;
+    height: 4px;
+    background-color: #68FB98;
+    transition: width .2s ease-out;
+}
+
+
+.overlay ul li a:hover{
+    outline: none;
+}
+.overlay ul li a:focus,
+.overlay ul li a:active {
+    outline: none;
+    color:#68FB98;
+}
+
+
+/* Menu Rollover */
+
+/* Effects */
+.overlay-hugeinc {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .5s, visibility 0s .5s;
+            transition: opacity .5s, visibility 0s .5s;
+}
+
+.overlay-hugeinc.open {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity .5s;
+            transition: opacity .5s;
+}
+
+.overlay-hugeinc h1,
+.overlay-hugeinc h2,
+.overlay-hugeinc .adress-holder {
+    -webkit-transition: opacity .5s;
+            transition: opacity .5s;
+    transition-delay: .5s;
+}
+
+.overlay-hugeinc .line {
+    -webkit-transition: width .2s;
+            transition: width .2s;
+    transition-delay: .8s;
+}
+
+.overlay-hugeinc.open h1,
+.overlay-hugeinc.open h2,
+.overlay-hugeinc.open .adress-holder,
+.overlay-hugeinc.open .contact p,
+.overlay-hugeinc.open .adress {
+    opacity: 1;
+}
+
+.overlay-hugeinc nav {
+    -webkit-perspective: 1200px;
+            perspective: 1200px;
+}
+
+.overlay-hugeinc nav ul {
+    opacity: .4;
+    -webkit-transition: -webkit-transform .5s, opacity .5s;
+            transition:         transform .5s, opacity .5s;
+    -webkit-transform: translateY(-25%) rotateX(35deg);
+            transform: translateY(-25%) rotateX(35deg);
+}
+
+.overlay-hugeinc.open nav ul {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+}
+
+.overlay-hugeinc.close nav ul {
+    -webkit-transform: translateY(25%) rotateX(-35deg);
+            transform: translateY(25%) rotateX(-35deg);
+}
+
+@media screen and (max-height: 30.5em) {
+    .overlay nav {
+        height: 70%;
+    }
+    .overlay ul li {
+        min-height: 34px;
+    }
+}
+
+.bg-home {
+    background: url("../img/bg-home.jpg"/*tpa=http://www.surfhousebarcelona.com/mobile/img/bg-home.jpg*/) center center/cover no-repeat;
+}
+
+.bg-activities {
+    background: url("../img/bg-activities.jpg"/*tpa=http://www.surfhousebarcelona.com/mobile/img/bg-activities.jpg*/) center center/cover no-repeat;
+}
+
+.home-content,
+.contact-content,
+.activities-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.img-wrap {
+    position: absolute;
+    top:-5px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 82%;
+    height: 88%;
+    background: url("../img/bg-2-home.jpg"/*tpa=http://www.surfhousebarcelona.com/mobile/img/bg-2-home.jpg*/) center center/cover no-repeat;
+}
+
+.logo {
+    position: relative;
+    top: -30px;
+    z-index: 2;
+    width: 59%;
+    margin:0 auto;
+}
+
+.firma-menu {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    color: #441984;
+    text-align: center;
+    font-weight: 900;
+    font-size: 9px;
+    opacity: 0.4;
+}
+
+.food-content,
+.swipeshow {
+    position: relative;
+    z-index: 1;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.food-content ul li.slide:last-child > span,
+.food-content ul li.slide:last-child > span img {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+.food-content span img.bg{
+    z-index:1;
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+
+.download-menu{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    left: 50% !important;
+    bottom: 15% !important;
+    text-align: center;
+    z-index: 3;
+
+}
+
+.download-menu .line{
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.download-menu-text{
+    font-family: "museo_sans";
+    font-weight:900;
+    color:#ffffff;
+    font-size:17px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+}
+.download-menu-icon{
+    width:70px;
+    height:85px !important;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+.slide > span {
+    z-index: 4;
+    height: 100%;
+}
+
+.slide > span,
+.slide > span img {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+.slide div {
+    position: absolute;
+    bottom: 30px;
+    left: 34px;
+    z-index:5;
+}
+
+
+
+.food-title {
+    position: absolute;
+    bottom: 57px;
+    left: 34px;
+    z-index: 3;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.sombra {
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.food-title > span {
+    z-index: 3;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.slide div > p {
+    margin-bottom: 5px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.slide div > b.line,
+.activities-content > h1 > b.line {
+    display: block;
+    width: 37px;
+    height: 2px;
+    background-color: #68fb98;
+}
+
+.activities-content > h1 > b.line {
+    margin-top: 15px;
+}
+
+.contact-content {
+    flex-direction: column;
+}
+
+.contact-content > div {
+    position: relative;
+    margin: auto;
+}
+
+.contact-content > div > img {
+    margin: 0 auto 12px auto;
+}
+
+.contact-content > div > img:first-of-type {
+    height: 22px;
+}
+
+.contact-content > div > img:nth-of-type(2) {
+    height: 17px;
+}
+
+.contact-content > div > img:nth-of-type(3) {
+    height: 22px;
+}
+
+.contact-content > div > img:last-of-type {
+    height: 20px;
+}
+
+.contact-content > div > p {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.contact-content > div > p:last-of-type {
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.contact-content > div > p > b {
+    font-weight: 700;
+}
+
+.bottom-bar {
+    position: absolute !important;
+    right: 0;
+    bottom: 23px;
+    left: 0;
+    text-align: center;;
+}
+
+.bottom-bar a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bottom-bar a img {
+    width: 100%;
+}
+
+.bottom-bar a:first-of-type {
+    margin-right: 37px;
+    width: 10px;
+}
+
+.bottom-bar a:nth-of-type(2) {
+    margin: 0 39px;
+    width: 18px;
+}
+
+.bottom-bar a:last-of-type {
+    margin-left: 37px;
+    width: 17px;
+}
+
+.bar {
+    display: inline-block;
+    width: 1px;
+    height: 33px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.home-content .bottom-bar a:first-of-type {
+    margin-right: 37px;
+    width: 16px;
+}
+
+.home-content .bottom-bar a:nth-of-type(2) {
+    margin: 0 39px;
+    width: 16px;
+}
+
+.home-content .bottom-bar a:last-of-type {
+    margin-left: 37px;
+    width: 24px;
+    height:18px;
+}
+
+/** ACTIVITIES **/
+
+.activities-content {
+    display: block;
+    overflow: hidden;
+}
+
+.activities-content > h1 {
+    position: absolute;
+    bottom: 29px;
+    left: 34px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.activitie {
+    position: relative;
+    display: inline-block;
+    margin-right: 18px;
+    width: 303px;
+    height: 100%;
+    vertical-align: top;
+}
+
+.today-activity {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    color: #68FB98;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: bebas;
+    line-height: 28px;
+}
+
+.line-today {
+    display: inline-block;
+    width: 97px;
+    height: 2px;
+    background-color: #68FB98;
+    vertical-align: middle;
+}
+
+.activities-content > div:nth-of-type(3) > h1 {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 77px;
+    opacity: .05;
+}
+
+.activities-content > div:nth-of-type(3) > h1 > span {
+    position: relative;
+    top: -12px;
+    display: block;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.activitie > div {
+    width: 100%;
+}
+
+.activitie > div:first-of-type {
+    margin-bottom: 2px;
+    max-height: 150px;
+    height: calc(100% - 213px);
+    background-color: white;
+}
+
+.activitie > div > div:first-of-type {
+    display: inline-block;
+    margin-right: 2px;
+    width: 50px;
+    vertical-align: top;
+}
+
+.activitie > div > div:first-of-type img {
+    position: relative;
+    top: 50%;
+    margin: auto;
+    height: 100%;
+    line-height: 50px;
+    transform: translate3d(0, -50%, 0);
+}
+
+.activitie > div > div:first-of-type > div:not(:first-of-type) img {
+    width: 60%;
+    height: auto;
+}
+
+.activitie > div > div:first-of-type > div {
+    margin-bottom: 2px;
+    width: 100%;
+    height: 50px;
+    background-color: #441984;
+    color: #FFF;
+    text-align: center;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.activitie > div > div:last-of-type {
+    display: inline-block;
+    width: 251px;
+    height: 213px;
+    vertical-align: top;
+}
+
+.activitie > div > div:last-of-type > div:first-of-type {
+    overflow: auto;
+    margin-bottom: 2px;
+    height: 160px;
+    background-color: #441984;
+    color: white;
+}
+
+.activitie > div > div:last-of-type > div:first-of-type h1 {
+    position: relative;
+    margin: 20px auto 5px auto;
+    text-align: center;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.activitie > div > div:last-of-type > div:first-of-type p {
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.activitie > div > div:last-of-type > div:first-of-type span {
+    position: relative;
+    display: block;
+    margin: 12px auto 12px auto;
+    width: 180px;
+    height: 2px;
+    background-color: #68FB98;
+}
+
+.activitie > div > div:last-of-type > div:first-of-type h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+
+
+.activitie > div > div > div.scheduled,
+.activitie > div > div > a.booking,
+.activitie > div > div > a.more-info {
+    display: inline-block;
+    padding: 0 16px 0 14px;
+    margin-left:-2px;
+    width: auto !important;
+    height: 30px;
+    background-color: #441984;
+    color: #68FB98;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: "museo_sans", Helvetica, sans-serif;
+    font-weight: 700 !important;
+    font-size: 11px;
+
+
+}
+
+.activitie > div > div > div.scheduled{
+    margin-left:0;
+}
+
+.activitie > div > div > div.scheduled a,
+.activitie > div > div > a.booking,
+.activitie > div > div > a.more-info{
+    font-weight: 700 !important;
+}
+
+.activitie > div > div > div.scheduled span,
+.activitie > div > div > a.booking span,
+.activitie > div > div > a.more-info span{
+    display: inline-block;
+    margin-top:1px;
+}
+
+.activitie > div > div > div.scheduled img,
+.activitie > div > div > a.booking img,
+.activitie > div > div > a.more-info img {
+    display: inline-block;
+    margin-right: 7px;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-top: -2px;
+
+
+}
+.activitie > div > div > a.booking img{
+    height: 12px;
+    width:17px;
+}
+
+.activitie > div > div > a.more-info img{
+  height: 12px;
+  width: 5px;
+
+}
+
+.activitie > div > div > div.scheduled p,
+.activitie > div > div > a.booking p,
+.activitie > div > div > a.more-info p {
+    display: inline-block;
+    margin-top: -1px;
+
+}
+
+
+.beach-workout > div:first-of-type {
+    background: url("../../img/activities/beach-workout.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/beach-workout.jpg*/) center center/cover;
+}
+
+.ladies-night > div:first-of-type {
+    background: url("../../img/activities/ladies-night.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/ladies-night.jpg*/) center center/cover;
+}
+
+.shb-running > div:first-of-type {
+    background: url("../../img/activities/shb-running.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/shb-running.jpg*/) center center/cover;
+}
+
+.moritz-bucket > div:first-of-type {
+    background: url("../../img/activities/moritz-bucket.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/moritz-bucket.jpg*/) center center/cover;
+}
+
+.paddle-surf > div:first-of-type {
+    background: url("../../img/activities/paddle-surf.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/paddle-surf.jpg*/) center center/cover;
+}
+
+.lecucut > div:first-of-type {
+    background: url("../../img/activities/lecucut.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/lecucut.jpg*/) center center/cover;
+}
+
+.beach-cleaning > div:first-of-type {
+    background: url("../../img/activities/beach-cleaning.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/beach-cleaning.jpg*/) center center/cover;
+}
+
+.wine-night > div:first-of-type {
+    background: url("../../img/activities/wine-night.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/wine-night.jpg*/) center center/cover;
+}
+
+.mojito-time > div:first-of-type {
+    background: url("../../img/activities/mojito-time.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/mojito-time.jpg*/) center center/cover;
+}
+
+.happy-nachos > div:first-of-type {
+    background: url("../../img/activities/nachos.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/nachos.jpg*/) center center/cover;
+}
+.paddle-boards > div:first-of-type {
+    background: url("../../img/activities/paddle-boards.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/paddle-boards.jpg*/) center center/cover;
+}
+    .volley > div:first-of-type {
+    background: url("../../img/activities/volley@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/volley@2x.jpg*/) center center/cover;
+}
+
+.wake > div:first-of-type {
+    background: url("../../img/activities/wake@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/wake@2x.jpg*/) center center/cover;
+}
+
+.wsports > div:first-of-type {
+    background: url("../../img/activities/wsports@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/wsports@2x.jpg*/) center center/cover;
+}
+
+.yoga > div:first-of-type {
+    background: url("../../img/activities/yoga@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/yoga@2x.jpg*/) center center/cover;
+}
+
+.beach-yoga > div:first-of-type {
+    background: url("../../img/activities/beach-yoga.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/beach-yoga.jpg*/) center center/cover;
+}
+
+.fries > div:first-of-type {
+    background: url("../../img/activities/fries.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/fries.jpg*/) center center/cover;
+}
+
+@media only screen and (min-width: 1920px),
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1024px),
+only screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
+only screen and (min-resolution: 192dpi) and (min-width: 1024px),
+only screen and (min-resolution: 2dppx) and (min-width: 1024px) {
+    .beach-workout > div:first-of-type {
+        background: url("../../img/activities/beach-workout@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/beach-workout@2x.jpg*/) center center/cover;
+    }
+
+    .ladies-night > div:first-of-type {
+        background: url("../../img/activities/ladies-night@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/ladies-night@2x.jpg*/) center center/cover;
+    }
+
+    .shb-running > div:first-of-type {
+        background: url("../../img/activities/shb-running@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/shb-running@2x.jpg*/) center center/cover;
+    }
+
+    .moritz-bucket > div:first-of-type {
+        background: url("../../img/activities/moritz-bucket@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/moritz-bucket@2x.jpg*/) center center/cover;
+    }
+
+    .paddle-surf > div:first-of-type {
+        background: url("../../img/activities/paddle-surf@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/paddle-surf@2x.jpg*/) center center/cover;
+    }
+
+    .lecucut > div:first-of-type {
+        background: url("../../img/activities/lecucut@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/lecucut@2x.jpg*/) center center/cover;
+    }
+
+    .beach-cleaning > div:first-of-type {
+        background: url("../../img/activities/beach-cleaning@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/beach-cleaning@2x.jpg*/) center center/cover;
+    }
+
+    .wine-night > div:first-of-type {
+        background: url("../../img/activities/wine-night@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/wine-night@2x.jpg*/) center center/cover;
+    }
+    .mojito-time > div:first-of-type {
+        background: url("../../img/activities/mojito-time@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/mojito-time@2x.jpg*/) center center/cover;
+    }
+    .happy-nachos > div:first-of-type {
+        background: url("../../img/activities/nachos@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/nachos@2x.jpg*/) center center/cover;
+    }
+    .paddle-surf > div:first-of-type {
+        background: url("../../img/activities/paddle-boards@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/paddle-boards@2x.jpg*/) center center/cover;
+    }
+    .volley > div:first-of-type {
+    background: url("../../img/activities/volley@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/volley@2x.jpg*/) center center/cover;
+}
+
+.wake > div:first-of-type {
+    background: url("../../img/activities/wake@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/wake@2x.jpg*/) center center/cover;
+}
+
+.wsports > div:first-of-type {
+    background: url("../../img/activities/wsports@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/wsports@2x.jpg*/) center center/cover;
+}
+
+.yoga > div:first-of-type {
+    background: url("../../img/activities/yoga@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/yoga@2x.jpg*/) center center/cover;
+}
+
+.beach-yoga > div:first-of-type {
+    background: url("../../img/activities/beach-yoga@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/beach-yoga@2x.jpg*/) center center/cover;
+}
+
+.fries > div:first-of-type {
+    background: url("../../img/activities/fries@2x.jpg"/*tpa=http://www.surfhousebarcelona.com/img/activities/fries@2x.jpg*/) center center/cover;
+}
+
+}
+
+#activities-carousel{
+    position: relative;
+    top: 12%;
+    overflow: hidden;
+    padding-left: 10%;
+    min-height: 160px;
+    max-height: 465px;
+    width: 100%;
+    height: 68.569715142%;
+    border-radius: 0;
+}
+
+#activities-carousel .handle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10%;
+    min-width: 100%;
+    width: 200%;
+    height: 100%;
+    border-radius: 0;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+}
+
+.active .handle {
+    cursor: -webkit-grabbing !important;
+    cursor: -moz-grabbing !important;
+}
+
+#activities-carousel .handle .page {
+    position: relative;
+    margin-top: 35px;
+    height: calc(100% - 0px);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-height: 540px) {
+.overlay nav {
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 30px;
+}
+.overlay ul li {
+    display: block;
+    margin-bottom: 5px;
+}
+.overlay nav ul li:last-child{
+    margin-top: 35px;
+}
+.overlay nav ul li:last-child a{
+    font-size:22px !important;
+}
+#activities-carousel .handle .page {
+    position: relative;
+    margin-top: 5px;
+
+}
+.activitie {
+    height: 106%;
+
+
+}
+}
+
